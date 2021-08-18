@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>C110</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="headerdiv"><h1>Mobile Net Image Identification</h1></div>
+    <br><br>
+
+    <div id= "cidiv" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <h3 id="ci">Capture Image</h3>
+        <div id="capturediv"></div>
+        <button class="btn btn-info" onclick="take_snapshot();">Capture</button>
+    </div>
+    <div id= "iidiv">
+        <h3 id="ii">Identify Image</h3>
+        <div id="identifydiv"></div>
+        <button class="btn btn-info" onclick="identify_snapshot();">Identify</button>
+    </div>
+    <br>
+    <br>
+    <div id="answerdiv" class="col-xs-12">
+        <h4 class="col-sm-6 col-xs-12">
+            Result- 
+            <span id="result"></span>
+        </h4>
+    </div>
+    <div id="copyright_footer">
+        Developed By - Manojna Kandlagunta
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

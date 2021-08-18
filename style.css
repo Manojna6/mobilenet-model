@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: rgb(198, 247, 211);
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+
+h1{
+    font-family: 'Monoton', cursive;
+    color: black;
+}
+
+#headerdiv{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ci, #ii{
+    background-color: white;
+    padding: 3px;
+}
+
+#cidiv, #iidiv{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 6px 9px 12px rgb(2, 65, 43);
+}
+
+#answerdiv{
+    margin-bottom: 50px;
+}
+
+#answerdiv h4{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 6px 9px 12px rgb(2, 65, 43);
+}
+
+#copyright_footer{
+    background-color: white;
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align:center;
+}
+
+#capturediv, #identifydiv{
+    height: 310px;
+    margin:0 auto
+}
+
+#result{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
